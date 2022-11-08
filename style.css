@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(228, 195, 8);
+    margin: 0;
+    font-size: 15px; 
+    margin-left: 15%;
+    width: 1333px;
+}
+.sim{
+    vertical-align:top;
+   width: 1333px;
+   height: 419px;
+}
+h1{
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(40, 123, 232);
+    color: white;
+    font-size: x-large;
+}
+h2{
+    margin-top: 30px;
+    color: rgb(228, 195, 8);
+}
+main{
+    display: flex;
+    background-color: white;
+}
+ul{
+    background-color: rgb(40, 123, 232);
+    width: 180px;
+    padding: 10px;
+    margin-top: 30px;
+}
+ol{
+    padding-left: 0px;
+    padding: 3px;
+}
+a{
+    color: blanchedalmond;
+}
+main > *{   
+  padding: 20px;
+}
+.centre{
+    margin: 0px;
+}
+.centre > p {
+    text-align: justify;
+}
+.mat{ 
+    border: 1px solid;
+}
+.nav{
+    padding: 0px;
+    padding-left: 10px;
+    text-align: center;
+}
+figure {
+    color: white;
+}
+aside{
+    margin: 30px;
+    width: 250px;
+    background-color: rgb(40, 123, 232);
+}
+aside > p {
+    color: white;
+    text-align: justify;
+}
+h3{
+    margin: 4px;
+    font-size: 18px;
+}
+.mat{
+    width: 130px;
+    height: 150px;
+}
+footer{
+    background-color: rgb(40, 123, 232);
+    font-size: 1.3em;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
